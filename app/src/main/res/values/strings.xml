@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">IapDemo</string>
+
+    <string name="version">Version</string>
+    <!-- pay start -->
+    <string name="pay">BUY</string>
+
+    <string name="pay_amount">Product amount</string>
+    <string name="pay_productName">Product name</string>
+    <string name="pay_productDesc">Product Description</string>
+    <string name="pay_merchantName">DoubleBalls</string>
+    
+    <string name="buy">buy</string>
+    <string name="subscribe">subscribe</string>
+    <string name="consumable_goods">"Consumable goods"</string>
+    <string name="non_consumable_goods">"Non-consumable goods"</string>
+    <string name="non_automatic_renewal_goods">"Non-automatic renewal goods"</string>
+    <string name="query_consumed_goods">"query consumed goods"</string>
+    <string name="tips">"tips"</string>
+    <string name="select_product">"select Product"</string>
+    <string name="no_network_connection_prompt">"The network is not available, please check the network connection"</string>
+    <string name="unsupported_country">"country is not supported iap"</string>
+    <string name="external_error">"external error"</string>
+    <string name="not_loggin_in">"please login account"</string>
+    <string name="login_fail">"login fail"</string>
+    <string name="cancel">"Cancel"</string>
+    <string name="item_already_owned">"product already owned"</string>
+    <string name="fail">"fail"</string>
+
+    <string name="pay_fail">Pay failed</string>
+    <string name="pay_success">Pay successful</string>
+    <string name="pay_success_signfail">Pay successful,sign failed</string>
+    <string name="verify_signature_fail">verify signature fail</string>
+    <string name="sure">"Confirm"</string>
+    <string name="param_error">"parameter error"</string>
+
+
+</resources>
