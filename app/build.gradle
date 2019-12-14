@@ -46,7 +46,19 @@ android {
         }
     }
 
+    def flavorDimensionEnvironment = "environment"
+    flavorDimensions flavorDimensionEnvironment
 
+    productFlavors {
+        huawei {
+            dimension flavorDimensionEnvironment
+            applicationId = "com.hmsdemo.doubleballsapp.huawei"
+        }
+        another {
+            dimension flavorDimensionEnvironment
+            applicationId = "com.hmsdemo.doubleballsapp.another"
+        }
+    }
 }
 
 dependencies {
